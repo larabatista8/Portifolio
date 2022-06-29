@@ -1,0 +1,80 @@
+section{
+    margin:15px 0;
+}
+
+.informacoes__hobbies, .informacoes__skills{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.lista li{
+margin: 8px 0;
+}
+
+#logo_github,#logo_html,#logo_css,#logo_js,#logo_git,#logo_rap,#logo_dorama,#logo_ler{
+    padding: 5px 0;
+}
+
+.legenda{
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+#logo_github{
+    width: 8%;
+    
+}
+
+.acesso_github:hover, .div_univasf:hover, .div_one:hover{
+	cursor: pointer;
+	font-weight: bold;
+    text-decoration: underline;
+}
+
+#logo_html{
+    width: 15%;
+}
+
+#logo_css{
+    width: 15%;
+}
+
+#logo_js{
+    width: 18%;
+}
+
+#logo_git{
+    width: 18%;
+}
+
+#logo_rap{
+    width: 18%;
+}
+
+#logo_dorama{
+    width: 18%;
+}
+
+#logo_ler{
+    width: 18%;
+}
+
+#logo_one,  #logo_univasf, #imagem_decodificador{
+    width: 70%;
+   
+}
+
+.informacoes__formacao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_univasf, .div_one{
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}

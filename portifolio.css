@@ -1,0 +1,135 @@
+:root{
+    --cor-de-fundo:#D3E2F1;
+    --cor-da-fonte: #46152F;
+    --cor-do-botao:#D8D2E7;
+    --cor-letra_botao:#321D71;
+    --borda:#ac9dd1;
+
+}
+
+ 
+ 
+ body{
+    font-family: 'Anek Latin', sans-serif;
+    background-color: var(--cor-de-fundo);
+    font: var(--cor-da-fonte);
+    box-sizing: border-box;
+    width: 500px;
+}
+
+main{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2rem;
+    align-items: center;
+    width: auto;
+    flex-direction: column;
+   background-color: #c5cdd6;
+}
+
+.cabecalho__nome{
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-block-end: 10px;
+    color: var(--cor-da-fonte);
+}
+
+.cabecalho__itens{
+    display: flex;
+}
+
+.cabecalho__item{
+    text-decoration: none;
+    color: var(--cor-da-fonte);
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.cabecalho__item:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.subtitulo{
+    color: var(--cor-da-fonte);
+   text-align: center;
+    font-weight: bold;
+    margin:8px 0;
+    font-size: 30px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.texto_apresentacao{
+    font-style: black;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.resumo__texto{
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+/*Formulario*/
+
+
+ form label, form input,  form textarea{
+    display:block;
+    margin:5px 0;
+}
+
+.contato__descricao{
+    font-style: black;
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+input,textarea{
+    border: 2.5px solid var(--borda);
+    border-radius: 8px;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+button{
+    border: 2.5px solid var(--borda);
+    border-radius: 8px;
+    color:  var(--cor-letra_botao);
+    background-color: var(--cor-do-botao);
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Anek Latin', sans-serif;
+    margin: 0 8px;
+}
+
+.rodape{
+    font-family: 'Anek Latin', sans-serif;
+    background-color: var(--borda);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
